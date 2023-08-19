@@ -45,7 +45,7 @@ body{
     color: white;
     height: 50px;
     text-align: center;  
-    margin-top: 0px;
+    margin-top: 1px;
      }
    
      footer a {
@@ -93,8 +93,8 @@ body{
 
   .centered-1 {
     position: absolute;
-    top: 38%;
-    left: 51.5%;
+    top: 41%;
+    left: 50%;
     transform: translate(-50%, -50%);
     font-size: 35px;
     font-weight: bold;
@@ -103,8 +103,8 @@ body{
 
   .pre-order-button{
     position: absolute;
-    top: 50%;
-    left: 42%;
+    top: 55%;
+    left: 38%;
     background-color: rgb(255, 216, 20);
     border: none;
     height: 60px;
@@ -115,13 +115,13 @@ body{
     font-weight: bold;
   }
 
-/*Below is About page customerized css*/
 .search-container{
   float: right;
   margin-right: 20px;
   margin-top: 15px;
 }
 
+/*Below is About page customerized css*/
 *{
   padding: 0px;
   padding: 0px;
@@ -130,19 +130,20 @@ body{
 
 .heading{
   text-align: center;
-  margin-top: 25px;
+  margin-top: 5px;
 }
 
 .heading h1{
-  font-size: 55px;
+  margin-top: 8px;
+  font-size: 45px;
   color: #36455c;
-  margin-bottom: 10px;
+  margin-bottom: 3px;
 }
 
 .heading p{
   font-size: 20px;
   color: #666;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .about-us{
@@ -191,22 +192,126 @@ body{
   background-color: #006dd6;
 }
 
-.tb {
-text-align: center;
-margin-left: 800px;
+.trading-hours{
+  font-size: 30px;
+  color: #36455c;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-/*Below is Products page customerized css*/
+.tb {
+text-align: center;
+margin-left: 600px;
+}
+
+
 table{
     text-align: center;
-    width: 2500px;
+    width: 700px;
     border-collapse: collapse;
-    margin: 10px;
-    font-size: 50px;
+    margin: 15px;
+    font-size: 25px;
+    
   }
 
   th,td{
     border:5px purple;
     border-style: groove;
   }
+
+/*Below is Products page customerized css*/
+
+.table-products{
+  text-align: center;
+  width: 1300px;
+  border-collapse: collapse;
+  margin: 5px;
+  font-size: 40px;
+  margin-left: 300px;
+
+  
+}
+
+th,td{
+  border:5px purple;
+  border-style: groove;
+}
+
+/*Below is Checkout page customerized css*/
+.checkout-h1{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  color: #36455c;
+}
+
+.form1{
+  color:purple; 
+  font-size: 25px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+
+}
+
+/*Below is Contact page customerized css*/
+.contact-h1{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+  color: #36455c;
+}
+
+.contact-h2{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif; 
+}
+
+.contact-form{
+  margin: 80px;
+  text-align: center;
+  left: 50%;
+}
+
+.input-field{
+  width: 800px;
+  height: 50px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline:none
+
+}
+
+.textarea-field{
+  height: 350px;
+  padding-top: 10px;
+  
+}
+
+.contact-button{
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #47c35a;
+  font-size:25px;
+  border: none;
+  cursor: pointer;
+  margin-left: 360px;
+  
+  
+}
+
+
+
+
   
